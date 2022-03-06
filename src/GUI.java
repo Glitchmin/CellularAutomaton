@@ -110,7 +110,6 @@ public class GUI extends JPanel implements ActionListener, ChangeListener {
             }
             if (command.equals("rainCheckBox")) {
                 Point.changeIsRain();
-                out.println(Point.getIsRain());
                 board.isRainChanged();
             }
 
