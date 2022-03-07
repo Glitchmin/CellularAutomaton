@@ -7,8 +7,8 @@ public class Point {
     private ArrayList<Point> neighbours;
     private int currentState;
     private int nextState;
-    private final static List<Integer> transitionRule1 = Arrays.asList(2, 3);
-    private final static List<Integer> transitionRule2 = List.of(3);
+    private final static List<Integer> transitionRule1 = Arrays.asList(2,3);
+    private final static List<Integer> transitionRule2 = Arrays.asList(3);
     private static Boolean isRain = false;
     private int numStates = 6;
     private final static Random random = new Random();
